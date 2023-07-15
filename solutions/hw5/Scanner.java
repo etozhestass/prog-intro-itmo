@@ -5,7 +5,7 @@ import java.nio.charset.Charset;
 
 public class Scanner implements AutoCloseable {
     private final Reader in;
-    private final int BUFF_LEN = 256;
+    private static final int BUFF_LEN = 256;
     private final char[] buffer = new char[BUFF_LEN];
     private int len;
     private int pos;
@@ -13,16 +13,21 @@ public class Scanner implements AutoCloseable {
     private boolean eof = false;
 
 
+    private Scanner(Reader reader) {
+        len = pos = 0;
+        this.in = reader;
+    }
+
     public Scanner(InputStream inputstream) throws IOException {
-        this.in = new InputStreamReader(inputstream);
+        this(new InputStreamReader(inputstream));
     }
 
     public Scanner(String str) throws IOException {
-        this.in = new StringReader(str);
+        this(new StringReader(str));
     }
 
     public Scanner(File file, Charset Charset) throws IOException {
-        this.in = new InputStreamReader(new FileInputStream(file), Charset);
+        this(new InputStreamReader(new FileInputStream(file), Charset));
     }
 
     private enum Type {
@@ -41,8 +46,8 @@ public class Scanner implements AutoCloseable {
         return hasNextImpl(Type.ABC);
     }
 
-    public boolean hasNextLine() throws IOException {
-        return !isEof();
+    public boolean hasNextLine() {
+        return !eof;
     }
 
     private boolean hasNextImpl(Type type) throws IOException {
@@ -51,7 +56,7 @@ public class Scanner implements AutoCloseable {
             pos++;
             reBuffer();
         }
-        return !isEof();
+        return hasNextLine();
     }
 
     public String nextLine() throws IOException {
@@ -88,10 +93,6 @@ public class Scanner implements AutoCloseable {
         return wordBuilder.toString();
     }
 
-    private boolean isEof() {
-        return eof;
-    }
-
     private boolean isEofBuffer() {
         return pos > len;
     }
@@ -106,10 +107,12 @@ public class Scanner implements AutoCloseable {
         };
     }
 
-    // Instead of this we can use:
-    // return System.lineSeparator().charAt(System.lineSeparator().length() - 1) == buffer[pos];
-    // This method exists for cases, when System.lineSeparator() == '\n\n' for example.
-    // Actually, there is no OS where it's true. But we can imagine it
+    /*
+     Instead of this we can use:
+     return System.lineSeparator().charAt(System.lineSeparator().length() - 1) == buffer[pos];
+     This method exists for cases, when System.lineSeparator() == '\n\n' for example.
+     Actually, there is no OS where it's true. But we can imagine it
+    */
     private boolean isLineSeparator() {
         int index = pos;
         while (!isEofBuffer() && index - pos < separator.length()) {
