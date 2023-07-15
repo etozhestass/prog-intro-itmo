@@ -193,5 +193,5 @@
 
 * [SumTest.java](solutions/hw2/test/SumTest.java)
 * [SumTester.java](solutions/hw2/test/SumTester.java)
-* [Базовые классы](java/base/)
+* [Базовые классы](solutions/base/)
  
