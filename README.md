@@ -1,9 +1,9 @@
 # prog-intro-itmo
 1st semester java-programming course at CT ITMO
 
-[Условия домашних заданий](https://www.kgeorgiy.info/courses/prog-intro/homeworks.html)
+[Условия домашних заданий](https://github.com/never-ever-live/prog-intro-itmo/blob/main/Task_Conditions.pdf)
 
-## Домашнее задание 13. Обработка ошибок
+## [Домашнее задание 13. Обработка ошибок](https://github.com/never-ever-live/prog-intro-itmo/tree/main/solutions/hw13/exceptions)
 
 Модификации
  * *Base*
@@ -30,7 +30,7 @@
         * `pow10` – 10 в степени, `pow10 4` равно 10000.
 
 
-## Домашнее задание 12. Разбор выражений
+## [Домашнее задание 12. Разбор выражений](https://github.com/never-ever-live/prog-intro-itmo/tree/main/solutions/hw12/parser)
 
 Модификации
  * *Base*
@@ -49,7 +49,7 @@
     * Дополнительно реализуйте унарную операцию
       `count` – число установленных битов, `count -5` равно 31.
 
-## Домашнее задание 11. Выражения
+## [Домашнее задание 11. Выражения](https://github.com/never-ever-live/prog-intro-itmo/tree/main/solutions/hw11/expression)
 
 Модификации
  * *Base*
@@ -63,7 +63,7 @@
     * Интерфейс [TripleExpression](java/expression/TripleExpression.java).
 
 
-## Домашнее задание 10. Игра m,n,k
+## [Домашнее задание 10. Игра m,n,k](https://github.com/never-ever-live/prog-intro-itmo/tree/main/solutions/hw10/game)
 
 Тесты не предусмотрены. Решение должно находиться в пакете `game`.
 
@@ -79,7 +79,7 @@
 
 
 
-## Домашнее задание 9. Markdown to HTML
+## [Домашнее задание 9. Markdown to HTML](https://github.com/never-ever-live/prog-intro-itmo/tree/main/solutions/hw9/md2html)
 
 Модификации
  * *Базовая*
@@ -90,7 +90,11 @@
     * Добавьте поддержку `++подчеркивания++`: `<u>подчеркивания</u>`
 
 
-## Домашнее задание 7. Разметка
+
+
+## [Домашнее задание 8. Чемпионат](https://github.com/never-ever-live/prog-intro-itmo/tree/main/solutions/hw8)
+
+## [Домашнее задание 7. Разметка](https://github.com/never-ever-live/prog-intro-itmo/tree/main/solutions/hw7/markup)
 
 Модификации
  * *Base*
@@ -106,7 +110,7 @@
       * сильно выделеный текст заключается в `\textbf{` и `}`;
       * зачеркнутый текст заключается в `\textst{` и `}`.
 
-## Домашнее задание 6. Подсчет слов++
+## [Домашнее задание 6. Подсчет слов++](https://github.com/never-ever-live/prog-intro-itmo/tree/main/solutions/hw6)
 
 Модификации
  * *Base*
@@ -125,7 +129,7 @@
     * Класс должен иметь имя `WsppCountPosition`
 
 
-## Домашнее задание 5. Свой сканнер
+## [Домашнее задание 5. Свой сканнер](https://github.com/never-ever-live/prog-intro-itmo/tree/main/solutions/hw5)
 
 Модификации
  * *Base*
@@ -138,7 +142,7 @@
     * Класс должен иметь имя `ReverseAbc`
 
 
-## Домашнее задание 4. Подсчет слов
+## [Домашнее задание 4. Подсчет слов](https://github.com/never-ever-live/prog-intro-itmo/tree/main/solutions/hw4)
 
 Модификации
  * *Base*
@@ -157,7 +161,7 @@
     * Класс должен иметь имя `hw4.WordStatWordsSuffix`
 
 
-## Домашнее задание 3. Реверс
+## [Домашнее задание 3. Реверс](https://github.com/never-ever-live/prog-intro-itmo/tree/main/solutions/hw3)
 
 Модификации
  * *Base*
@@ -172,7 +176,7 @@
     * Класс должен иметь имя `ReverseTranspose`
 
 
-## Домашнее задание 2. Сумма чисел
+## [Домашнее задание 2. Сумма чисел](https://github.com/never-ever-live/prog-intro-itmo/tree/main/solutions/hw2)
 
 Модификация
  * *Double*
