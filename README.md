@@ -191,7 +191,7 @@
 
 Исходный код тестов:
 
-* [SumTest.java](java/sum/SumTest.java)
-* [SumTester.java](java/sum/SumTester.java)
+* [SumTest.java](solutions/hw2/test/SumTest.java)
+* [SumTester.java](solutions/hw2/test/SumTester.java)
 * [Базовые классы](java/base/)
  
