@@ -55,7 +55,6 @@
  * *Base*
     * Реализуйте интерфейс [Expression](java/expression/Expression.java)
     * [Исходный код тестов](java/expression/ExpressionTest.java)
-    * [Исходный код тестов для групп 32-35](java/expression/ExpressionEasyTest.java)
         * Первый аргумент: `easy` или `hard`.
         * Последующие аргументы: модификации.
  * *Triple*
@@ -84,7 +83,6 @@
 Модификации
  * *Базовая*
     * [Исходный код тестов](java/md2html/Md2HtmlTester.java)
-    * [Откомпилированные тесты](artifacts/Md2HtmlTest.jar)
         * Аргументы командной строки: модификации
  * *Underline*
     * Добавьте поддержку `++подчеркивания++`: `<u>подчеркивания</u>`
@@ -102,8 +100,6 @@
         * [MarkupTester.java](java/markup/MarkupTester.java)
         * [MarkupTest.java](java/markup/MarkupTest.java)
         * Аргументы командной строки: модификации
-    * Откомпилированных тестов не существуют, 
-      так как они зависят от вашего кода
  * *Tex*
     * Дополнительно реализуйте метод `toTex`, генерирующий TeX-разметку:
       * выделеный текст заключается в `\emph{` и `}`;
@@ -118,7 +114,6 @@
     * Исходный код тестов:
         [WsppTest.java](java/wspp/WsppTest.java),
         [WsppTester.java](java/wspp/WsppTester.java)
-    * Откомпилированные тесты: [WsppTest.jar](artifacts/WsppTest.jar)
         * Аргументы командной строки: модификации
  * *CountPosition*
     * В выходном файле слова должны быть упорядочены по возрастанию числа
@@ -134,7 +129,6 @@
 Модификации
  * *Base*
     * Исходный код тестов: [FastReverseTest.java](java/reverse/FastReverseTest.java)
-    * Откомпилированные тесты: [FastReverseTest.jar](artifacts/FastReverseTest.jar)
         * Аргументы командной строки: модификации
  * *Abc*
     * Во вводе и выводе используются числа, записаные буквами:
@@ -151,7 +145,6 @@
         [WordStatTest.java](java/wordStat/WordStatTest.java),
         [WordStatTester.java](java/wordStat/WordStatTester.java),
         [WordStatChecker.java](java/wordStat/WordStatChecker.java)
-    * Откомпилированные тесты: [WordStatTest.jar](artifacts/WordStatTest.jar)
         * Аргументы командной строки: модификации
  * *WordsSuffix*
     * Выходной файл должен содержать все различные суффиксы длины 3
@@ -168,7 +161,6 @@
     * Исходный код тестов:
         [ReverseTest.java](java/reverse/ReverseTest.java),
         [ReverseTester.java](java/reverse/ReverseTester.java)
-    * Откомпилированные тесты: [ReverseTest.jar](artifacts/ReverseTest.jar)
         * Аргументы командной строки: модификация
  * *Transpose*
     * Рассмотрим входные данные как (не полностью определенную) матрицу,
@@ -185,7 +177,6 @@
 
 Для того, чтобы протестировать исходную программу:
 
- 1. Скачайте откомпилированные тесты ([SumTest.jar](artifacts/SumTest.jar))
  1. Откомпилируйте `hw2.Sum.java`
  1. Проверьте, что создался `hw2.Sum.class`
  1. В каталоге, в котором находится `hw2.Sum.class`, выполните команду
