@@ -82,7 +82,7 @@
 
 Модификации
  * *Базовая*
-    * [Исходный код тестов](java/md2html/Md2HtmlTester.java)
+    * [Исходный код тестов](solutions/hw9/test/Md2HtmlTester.java)
         * Аргументы командной строки: модификации
  * *Underline*
     * Добавьте поддержку `++подчеркивания++`: `<u>подчеркивания</u>`
@@ -97,8 +97,8 @@
 Модификации
  * *Base*
     * Исходный код тестов:
-        * [MarkupTester.java](java/markup/MarkupTester.java)
-        * [MarkupTest.java](java/markup/MarkupTest.java)
+        * [MarkupTester.java](solutions/hw7/test/MarkupTester.java)
+        * [MarkupTest.java](solutions/hw7/test/MarkupTest.java)
         * Аргументы командной строки: модификации
  * *Tex*
     * Дополнительно реализуйте метод `toTex`, генерирующий TeX-разметку:
@@ -112,8 +112,8 @@
  * *Base*
     * Класс должен иметь имя `Wspp`
     * Исходный код тестов:
-        [WsppTest.java](java/wspp/WsppTest.java),
-        [WsppTester.java](java/wspp/WsppTester.java)
+        [WsppTest.java](solutions/hw6/test/WsppTest.java),
+        [WsppTester.java](solutions/hw6/test/WsppTester.java)
         * Аргументы командной строки: модификации
  * *CountPosition*
     * В выходном файле слова должны быть упорядочены по возрастанию числа
@@ -128,7 +128,7 @@
 
 Модификации
  * *Base*
-    * Исходный код тестов: [FastReverseTest.java](java/reverse/FastReverseTest.java)
+    * Исходный код тестов: [FastReverseTest.java](solutions/hw5/test/FastReverseTest.java)
         * Аргументы командной строки: модификации
  * *Abc*
     * Во вводе и выводе используются числа, записаные буквами:
@@ -142,9 +142,9 @@
  * *Base*
     * Класс должен иметь имя `hw4.WordStatInput`
     * Исходный код тестов:
-        [WordStatTest.java](java/wordStat/WordStatTest.java),
-        [WordStatTester.java](java/wordStat/WordStatTester.java),
-        [WordStatChecker.java](java/wordStat/WordStatChecker.java)
+        [WordStatTest.java](solutions/hw4/test/WordStatTest.java),
+        [WordStatTester.java](solutions/hw4/test/WordStatTester.java),
+        [WordStatChecker.java](solutions/hw4/test/WordStatChecker.java)
         * Аргументы командной строки: модификации
  * *WordsSuffix*
     * Выходной файл должен содержать все различные суффиксы длины 3
@@ -159,8 +159,8 @@
 Модификации
  * *Base*
     * Исходный код тестов:
-        [ReverseTest.java](java/reverse/ReverseTest.java),
-        [ReverseTester.java](java/reverse/ReverseTester.java)
+        [ReverseTest.java](solutions/hw3/test/ReverseTest.java),
+        [ReverseTester.java](solutions/hw3/test/ReverseTester.java)
         * Аргументы командной строки: модификация
  * *Transpose*
     * Рассмотрим входные данные как (не полностью определенную) матрицу,
