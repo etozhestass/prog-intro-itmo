@@ -1,4 +1,4 @@
-## Own Fast Scanner
+## [Own Fast Scanner](https://github.com/etozhestass/prog-intro-itmo/blob/main/solutions/hw5/Scanner.java)
 
 
 This is a fast analogue of Scanner in java based on buffering.
