@@ -1,0 +1,2 @@
+100  word -abcd
+just next line with @random symbols!111
